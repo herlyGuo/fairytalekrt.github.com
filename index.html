@@ -7,28 +7,31 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-    </script>
+        </script>
+
+    <script src="js/bootstrap.min.js"></script>
 
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-    </script>
+        </script>
+    <script src="css/bootstrap.min.css"></script>
 
     <link rel="stylesheet" href="common.css">
     <title>Fairy</title>
 </head>
 
 <body>
-    <div class="container">
+    <header class="container">
         <div class="row bg-dark" id="titleNav">
             <div class="col-md-3">
                 <div id="fou"></div>
             </div>
-            <div class="col-md-9 h1">
+            <div class=" col-md-9 d-none d-md-inline h1">
                 <div class="row ">
                     <div class="col-3 ">
                         <button class=" btn btn-dark">首页</button>
@@ -79,10 +82,46 @@
                 </div>
             </div>
         </div>
-
-        <div id="content"></div>
-
+    </header>
+    <div class="container" id="content">
+        <div class="">
+            <div class="border rounded">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="m-2">
+                            <p class="text-secondary">2019-07-23</p>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam adipisci laborum odit
+                                totam aspernatur illum deleniti, dolor non mollitia doloremque fugit nemo delectus
+                                accusantium nulla vel illo. Numquam, necessitatibus ex?</p>
+                        </div>
+                    </div>
+                    <div class="col-md-7"><img class=" w-100" src="img/74857125_p0.png" alt=""></div>
+                </div>
+                <div class="row col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">前端 100 问：能搞懂 80% 的请把简历给我</div>
+                            <p class="card-text">在 2019 年 1 月 21 日这天，「壹题」项目正式开始，在这之后每个工作日都会出一道高频面试题，主要涵盖阿里、腾讯、头条、百度、网易等大公司和常见题型。得益于大家热情参与，现在每道题都有很多答案，提供的解题思路和答案也大大增长了我的见识，到现在已累积 100 道题目，『 8000+ 』Star 了，可以说你面试中遇到过的题目，在这里肯定能发现熟悉的身影。
+                                    后期计划除了持续更新「壹题」之外，还将整理非常详细的答案解析，提供完整的思考链路，帮助大家更好的理解题目，以及题目背后的知识，「我们的目标不是背题，而是通过题目查漏补缺，温故知新」。
+                                    <br>
+                                    作者：木易杨说
+                                    链接：https://juejin.im/post/5d23e750f265da1b855c7bbe
+                                    来源：掘金
+                                    著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+
+
+    <footer>
+        <div class="container">
+            <p class="text-center">Crafted with Fairytale</p>
+        </div>
+    </footer>
 </body>
 
 </html>
