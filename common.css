@@ -1,16 +1,16 @@
-#title{
+#titleNav{
     border-bottom: 1px solid black;
 }
 #fou{
-    width: 60px;
+    width: 80px;
     height: 60px;
-    background-image: url("img/Fou.jpg");
-    background-position: 0px 0px;
-    animation: fouRun .6s steps(1,start) 0s infinite;
-}
+    background-image: url("img/Fou.png");
+    background-position: -80px 0px;
+    animation: fouRun .6s steps(1,start) 0s infinite; 
+} 
 @keyframes fouRun{
 0%{background-position: 0px 0px;}
-100%{background-position: -60px 0px;}
-33%{background-position: -120px 0px;}
-66%{background-position: -180px 0px;}
+100%{background-position: -80px 0px;}
+33%{background-position: -160px 0px;}
+66%{background-position: -240px 0px;}
 }
